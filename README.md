@@ -56,7 +56,7 @@ pip install customtkinter
 Se placer dans le dossier <b><i>ui</i></b> du projet et taper la commande : <br>
 
 ```console
-pyton ui.py
+python ui.py
 ```
 <img src="./ui/ui.jpg"><br>
 
@@ -68,11 +68,12 @@ Il s'agit ici de générer une serie d'operandes aléatoires et d'operateurs, de
 Se placer dans le dossier <b><i>example</i></b> du projet et taper la commande : <br>
 
 ```console
-pyton benchmark.py
+python benchmark.py
 ```
 
 <h4><u> Implémentation réseau : </u></h4>
 
+> ⚠️ les noms utilisés ici ainsi que toutes autres données sont purement fictives et ont étés générées aléatoirement.
 
 Ici, nous simulons un cas de figure réel dans lequel une entreprise A a besoin d'effectuer un calcul certaines opérations(augmentations des primes) sur les salaires de ses employés, mais de dispose pas de la puissance de calcul nécéssaire.
 
@@ -84,33 +85,33 @@ Il est nécéssaire d'avoir deux ordinateurs en réseau et de connaitre l'adress
 > le fichier des employés de A se trouve dans le repertoire : "network/datas/datas.csv"
 <img src="network/names_before.jpg">
 
-<u>Demarrage du serveur :</u><br> 
+<br><u>Demarrage du serveur :</u><br> 
 ouvrir le fichier <i>network/server_send.py</i> (sur le pc serveur) et modifier la variable "CLIENT_IP_ADRESS" par l'adresse IP du client.
 
 Se placer dans le dossier <b><i>network</i></b> du projet et taper la commande :<br>
 ```console
-pyton server_receive.py
+python server_receive.py
 ```
 
-<u>Demarrage du client :</u><br> 
+<br><u>Demarrage du client :</u><br> 
 ouvrir le fichier <i>network/client_encrypt.py</i> (sur le pc client) et modifier la variable "SERVER_IP_ADRESS" par l'adresse IP du serveur.
 
 Se placer dans le dossier <b><i>network</i></b> du projet et taper la commande :<br>
 ```console
-pyton client_encrypt.py
+python client_encrypt.py
 ```
 
-Le fichier sera alors chiffré et transmis au server par le client.
+<br>Le fichier sera alors chiffré et transmis au server par le client.
 Une fois le travail de calcul par le serveur terminé : 
 
 Sur le pc client tapez la commande :
 ```console
-pyton client_decrypt.py
+python client_decrypt.py
 ```
 
 Sur le pc server tapez la commande :
 ```console
-pyton server_send.py
+python server_send.py
 ```
 
 Le fichier calculé sera alors reçu par le client, qui le dechiffrera et le fichier final sera dans le repertoire "network/datas/results/final.csv"
