@@ -75,7 +75,7 @@ python benchmark.py
 
 > ⚠️ les noms utilisés ici ainsi que toutes autres données sont purement fictives et ont étés générées aléatoirement.
 
-Ici, nous simulons un cas de figure réel dans lequel une entreprise A a besoin d'effectuer un calcul certaines opérations(augmentations des primes) sur les salaires de ses employés, mais de dispose pas de la puissance de calcul nécéssaire.
+Ici, nous simulons un cas de figure réel dans lequel une entreprise A a besoin d'effectuer un calcul / certaines opérations(augmentations des primes) sur les salaires de ses employés, mais de dispose pas de la puissance de calcul nécéssaire.
 
 
 Elle décide alors de se tourner vers un <i>datacenter</i> pour la réalisation de ses calculs. mais néanmoins elle ne souhaite pas que le datacenter ait access à ses données en clair. D'ou l'utilisation du schéma BFV.
@@ -121,3 +121,6 @@ Le fichier calculé sera alors reçu par le client, qui le dechiffrera et le fic
 
 - [@IgorGreenIGM](https://github.com/IgorGreenIGM) - Idea & Initial work
 - [@TchassiDaniel](https://github.com/TchassiDaniel)
+- [@FredyFezeu](https://github.com/FredyFezeu)
+- [@Krostemgoua](https://github.com/krostemgoua)
+- [@Bakotchaloic](https://github.com/Bakotchaloic)
