@@ -4,7 +4,7 @@ import customtkinter
 from typing import Tuple
 from tkinter import messagebox
 
-customtkinter.set_appearance_mode('dark')
+customtkinter.set_appearance_mode('light')
 customtkinter.set_default_color_theme("green")
 DPI_SCALE = float(ctypes.windll.shcore.GetScaleFactorForDevice(0)) / 100
 
